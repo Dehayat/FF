@@ -87,6 +87,10 @@ public class Player : MonoBehaviour
         {
             currentTrigger = trigger;
         }
+        if (collision.TryGetComponent<DoorTrigger>(out var door))
+        {
+            DoorManager.instance.EnterDoor(door.doorExit);
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
