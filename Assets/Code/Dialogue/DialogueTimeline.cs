@@ -76,8 +76,8 @@ public class DialogueTimeline : MonoBehaviour
         {
             if (!dm.NextText())
             {
-                NextFrame();
                 waitingForInput = false;
+                NextFrame();
             }
         }
     }
