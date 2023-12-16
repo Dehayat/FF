@@ -5000,42 +5000,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1728204931724183598, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 78b68d82f31d81c4b87d0930f703b272, type: 3}
-    - target: {fileID: 1728204931724183598, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728204931724183598, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728204931724183598, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728204931724183598, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5288942446068859525, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5288942446068859525, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5619559002715684026, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Size.y
-      value: 0.86831
-      objectReference: {fileID: 0}
-    - target: {fileID: 5619559002715684026, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.41721725
-      objectReference: {fileID: 0}
     - target: {fileID: 5635870178907417001, guid: ec03f1f24db3f3e4bb855105bb9b6013, type: 3}
       propertyPath: m_Name
       value: Player

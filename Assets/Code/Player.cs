@@ -9,10 +9,12 @@ public class Player : MonoBehaviour
 
     private bool canMove = true;
     private Rigidbody2D rb;
+    private Animator anim;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         moveInput = Vector2.zero;
     }
 
@@ -64,9 +66,18 @@ public class Player : MonoBehaviour
     {
         if (!canMove)
         {
+            anim.SetBool("Walk", false);
             return;
         }
         rb.velocity = moveInput * speed;
+        if (moveInput.magnitude > 0.1f)
+        {
+            anim.SetBool("Walk", true);
+        }
+        else
+        {
+            anim.SetBool("Walk", false);
+        }
     }
 
     private FrameTrigger currentTrigger;
