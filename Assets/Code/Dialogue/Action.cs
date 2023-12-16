@@ -29,7 +29,7 @@ public class Action
 
     private void ChangeDialogueAction()
     {
-
+        GameData.instance.GetWorldCharacter(target).frameTrigger.frame = nextDialogue;
     }
 
     private void ChangeHeartAction()

@@ -19,6 +19,11 @@ MonoBehaviour:
     - actionType: 0
       target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
       heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
   - choice: Is something bothering you
     nextFrame: {fileID: 11400000, guid: 51fc1f8de778e604fb08d758b769cf82, type: 2}
     actions: []

@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
 
     private void InteractWithTrigger()
     {
-        if (currentTrigger != null)
+        if (currentTrigger != null && currentTrigger.CanUse())
         {
             var interactingGO = currentTrigger.gameObject;
             dialogue.onFinish.AddListener(() => { interactingGO.SetActive(true); dialogue.onFinish.RemoveAllListeners(); canMove = true; });
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
     private FrameTrigger currentTrigger;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<FrameTrigger>(out var trigger))
+        if (collision.TryGetComponent<FrameTrigger>(out var trigger) && trigger.CanUse())
         {
             currentTrigger = trigger;
         }
