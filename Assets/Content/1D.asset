@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1D
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
-  nextFrame: {fileID: 0}
+  nextFrame: {fileID: 11400000, guid: a69ae5042746f1d449dcc84187deb952, type: 2}
   text:
   - Hello
   - Im fox

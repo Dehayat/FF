@@ -32,4 +32,9 @@ public class ChoiceManager : MonoBehaviour
         currentChoice.SetChoice(choice);
         timeline.NextFrame();
     }
+
+    public void StopChoice()
+    {
+        choiceContainer.SetActive(false);
+    }
 }

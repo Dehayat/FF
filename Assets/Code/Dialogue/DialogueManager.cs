@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -11,22 +12,27 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialogueContainer;
 
     private Dialogue currentDialogue;
-    private int StringPos = 0;
+    private int currentTextIndex = 0;
 
     public void StartDialogue(Dialogue dialogue)
     {
         currentDialogue = dialogue;
-        StringPos = 0;
+        currentTextIndex = 0;
         characterImage.sprite = currentDialogue.character.sprite;
         nameText.text = dialogue.character.characterName;
-        dialogueText.text = currentDialogue.text[StringPos];
+        dialogueText.text = currentDialogue.text[currentTextIndex];
         characterImage.gameObject.SetActive(true);
         dialogueContainer.SetActive(true);
     }
-    public void NextText()
+    public bool NextText()
     {
-        StringPos++;
-        dialogueText.text = currentDialogue.text[StringPos];
+        currentTextIndex++;
+        if (currentTextIndex >= currentDialogue.text.Length)
+        {
+            return false;
+        }
+        dialogueText.text = currentDialogue.text[currentTextIndex];
+        return true;
     }
     public void StopDialogue()
     {
