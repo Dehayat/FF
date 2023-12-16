@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 7C-You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: "It\u2019s just Shirley being Shirley."
+    nextFrame: {fileID: 11400000, guid: 8fe2e70ca1aae824886b1e2b5fb76db1, type: 2}
+    actions: []
+  - choice: No one can tell you what to do!
+    nextFrame: {fileID: 11400000, guid: 5a36a3f1de580b043b50f8a06cdc7277, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}
+  - choice: "You\u2019re the captain, just solve the problem!"
+    nextFrame: {fileID: 11400000, guid: f77ed08b7a2c4b54a8077ee07ef46c38, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}

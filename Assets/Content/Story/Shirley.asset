@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 6F
+  m_Script: {fileID: 11500000, guid: 0ea9ef37b7269ab44a2365488f8adb0b, type: 3}
+  m_Name: Shirley
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 11400000}
-  text:
-  - huh?
-  actions: []
+  sprite: {fileID: 21300000, guid: 4c645ec6a5c1799419bfce2fe001445e, type: 3}
+  characterName: Leonard
+  heart: 2

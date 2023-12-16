@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 1D-You
+  m_Name: 0D-Penny
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 94df7f9b28048eb43916575705cf39a7, type: 2}
-  nextFrame: {fileID: 11400000, guid: ab3182637a93399448ff23d73f70b1d2, type: 2}
+  character: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+  nextFrame: {fileID: 11400000, guid: 64e6c3146e7f0814aa8f6c193ca94e0e, type: 2}
   text:
-  - How are you doing?
+  - Yes?
   actions: []

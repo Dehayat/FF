@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 3C-You
   m_EditorClassIdentifier: 
   options:
-  - choice: How can you eat
+  - choice: How can you eat while sleeping?
     nextFrame: {fileID: 11400000, guid: 2448388f2e07a114289476cffc4fd539, type: 2}
     actions: []
-  - choice: a dream about grapes
+  - choice: And dreaming of eating grapes!
     nextFrame: {fileID: 11400000, guid: 690d4d40056c63f4d83684481758121a, type: 2}
     actions:
     - actionType: 0

@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 5F-CB
+  m_Name: 5D-Dave-3B
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 11400000, guid: 2a633230bc1c03f49ab8521e7e35d1c3, type: 2}
+  character: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+  nextFrame: {fileID: 11400000, guid: e8ee61f092b65a944a67709cab864b32, type: 2}
   text:
-  - I'd love
+  - "I would if it wasn\u2019t for all these technical problems! I solve one and
+    two more pop up. "
   actions: []

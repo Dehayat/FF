@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 2D-Felix
+  m_Name: 6D-Dave
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
-  nextFrame: {fileID: 11400000, guid: fd7511b285f0bac4dae71cc11831dff0, type: 2}
+  character: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+  nextFrame: {fileID: 11400000, guid: c9221aa319441214db5ae46fd370e5d1, type: 2}
   text:
-  - Just woke up
+  - "Now there\u2019s a crack on the third porthole and I don\u2019t know what to
+    do. Everyone expects so much from me\u2026"
   actions: []
