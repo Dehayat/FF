@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 8D-Sally
+  m_Name: 2D-Felix
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 0}
+  character: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+  nextFrame: {fileID: 11400000, guid: fd7511b285f0bac4dae71cc11831dff0, type: 2}
   text:
-  - Cmon sweety
-  actions:
-  - actionType: 1
-    target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-    heartChange: 0
-    nextDialogue: {fileID: 0}
+  - Just woke up
+  actions: []

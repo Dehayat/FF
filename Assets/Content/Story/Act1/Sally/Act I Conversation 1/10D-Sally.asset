@@ -10,13 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 7D-Sally
+  m_Name: 10D-Sally
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
   nextFrame: {fileID: 0}
   text:
-  - Your probably right
+  - Flawless? I like your irony, sweetie!
+  - "I\u2019m not saying she is a bad leader, but sometimes she is too negative,
+    and ruins the atmosphere with her cynicism."
   actions:
+  - actionType: 0
+    target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
+    heartChange: 1
+    nextDialogue: {fileID: 0}
   - actionType: 1
     target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
     heartChange: 0

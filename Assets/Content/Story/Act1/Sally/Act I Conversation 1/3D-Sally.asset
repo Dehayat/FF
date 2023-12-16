@@ -15,5 +15,7 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
   nextFrame: {fileID: 11400000, guid: bf77672d451de494ca619b12ec0fe312, type: 2}
   text:
-  - Im feeling great
+  - "I\u2019m feeling great and full of life!"
+  - "Must be all this sunlight I\u2019m getting"
+  - "or just being on holiday with my wonderful friends\u2026 However\u2026"
   actions: []

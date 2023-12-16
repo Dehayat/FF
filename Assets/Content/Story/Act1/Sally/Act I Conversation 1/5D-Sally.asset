@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 2D-You
+  m_Name: 5D-Sally
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 94df7f9b28048eb43916575705cf39a7, type: 2}
-  nextFrame: {fileID: 11400000, guid: e434de60751759543a5e53bbab43fc45, type: 2}
+  character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
+  nextFrame: {fileID: 11400000, guid: b9af100edfe4d184daf90a08c50bcf51, type: 2}
   text:
-  - How are you doin?
+  - "I just feel like the general vibe of the group is getting worse\u2026"
+  - "Or maybe it\u2019s just Shirley complaining too much"
   actions: []

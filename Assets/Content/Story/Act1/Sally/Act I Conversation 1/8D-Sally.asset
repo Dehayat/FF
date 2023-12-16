@@ -10,10 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
-  m_Name: 5D-Sally
+  m_Name: 8D-Sally
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 11400000, guid: b9af100edfe4d184daf90a08c50bcf51, type: 2}
+  nextFrame: {fileID: 0}
   text:
-  - I just feel like
-  actions: []
+  - "C\u2019mon sweetie\u2026 it\u2019s not like I don\u2019t like her!"
+  - "She cares about us. It\u2019s just that sometimes she cares too much."
+  actions:
+  - actionType: 1
+    target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
+    heartChange: 0
+    nextDialogue: {fileID: 0}

@@ -15,7 +15,8 @@ MonoBehaviour:
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
   nextFrame: {fileID: 0}
   text:
-  - Cmon sweety shes not annoying
+  - "C\u2019mon sweetie\u2026 she\u2019s not annoying!"
+  - "She cares about us. It\u2019s just that sometimes she cares too much. "
   actions:
   - actionType: 1
     target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
