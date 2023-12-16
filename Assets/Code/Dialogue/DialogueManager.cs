@@ -23,6 +23,10 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = currentDialogue.text[currentTextIndex];
         characterImage.gameObject.SetActive(true);
         dialogueContainer.SetActive(true);
+        foreach (var action in dialogue.actions)
+        {
+            action.DoAction();
+        }
     }
     public bool NextText()
     {
