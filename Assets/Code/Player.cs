@@ -50,10 +50,11 @@ public class Player : MonoBehaviour
         if (currentTrigger != null)
         {
             var interactingGO = currentTrigger.gameObject;
-            dialogue.onFinish.AddListener(() => { interactingGO.SetActive(true); dialogue.onFinish.RemoveAllListeners(); });
+            dialogue.onFinish.AddListener(() => { interactingGO.SetActive(true); dialogue.onFinish.RemoveAllListeners(); canMove = true; });
             dialogue.StartFrame(currentTrigger.frame);
             currentTrigger.gameObject.SetActive(false);
             currentTrigger = null;
+            canMove = false;
         }
     }
 

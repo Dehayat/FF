@@ -5,6 +5,7 @@ public struct ChoiceOption
 {
     public string choice;
     public Frame nextFrame;
+    public Action[] actions;
 }
 
 [CreateAssetMenu(menuName = "Frames/Choice")]
