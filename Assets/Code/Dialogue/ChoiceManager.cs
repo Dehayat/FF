@@ -30,6 +30,10 @@ public class ChoiceManager : MonoBehaviour
     {
         Debug.Log(choice + "Chosen");
         currentChoice.SetChoice(choice);
+        foreach (var action in currentChoice.options[choice].actions)
+        {
+            action.DoAction();
+        }
         timeline.NextFrame();
     }
 

@@ -17,3 +17,7 @@ MonoBehaviour:
   text:
   - Hello
   - Im fox
+  actions:
+  - actionType: 0
+    target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+    heartChange: 1

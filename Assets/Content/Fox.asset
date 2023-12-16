@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea9ef37b7269ab44a2365488f8adb0b, type: 3}
   m_Name: Fox
   m_EditorClassIdentifier: 
-  characterImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: ab8ff80a0c24c6141883fc150d814e58, type: 3}
   characterName: Felix
+  heart: 0

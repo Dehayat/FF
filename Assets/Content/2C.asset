@@ -15,5 +15,10 @@ MonoBehaviour:
   options:
   - choice: Hello
     nextFrame: {fileID: 11400000, guid: d40a3201912bb854bae689312ba3bb27, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: 2
   - choice: I hate you
     nextFrame: {fileID: 11400000, guid: 67610ac6fdaf3df4cbdb37ef8720c929, type: 2}
+    actions: []
