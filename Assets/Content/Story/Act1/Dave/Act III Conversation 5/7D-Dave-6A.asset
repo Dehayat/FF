@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
+  m_Name: 7D-Dave-6A
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+  nextFrame: {fileID: 0}
+  text:
+  - "How do you know? You talked to her? No, who am I fooling? I always felt it,
+    in my guts, that she\u2019s not into me. "
+  actions:
+  - actionType: 1
+    target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+    heartChange: 0
+    nextDialogue: {fileID: 0}

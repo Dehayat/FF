@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 1C-You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: Get up and help us fix the ship!
+    nextFrame: {fileID: 11400000, guid: ab2b11be97ef7ec44818b7af0b15525f, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+  - choice: "Are you an engin\u2026 Nevermind, enjoy your grapes!"
+    nextFrame: {fileID: 11400000, guid: 0cdb99d803c35294985129c6ce26054a, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}

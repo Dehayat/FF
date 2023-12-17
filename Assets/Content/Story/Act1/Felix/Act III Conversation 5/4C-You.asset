@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 4C-You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: Sacrifice one of us to the Sun Daddy?
+    nextFrame: {fileID: 11400000, guid: e21ea264d971c64489a4e9e96f0fe917, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: -2
+      nextDialogue: {fileID: 0}
+  - choice: Take a nap?
+    nextFrame: {fileID: 11400000, guid: 2f78330b63cccec45ac19de5eed0d205, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: -2
+      nextDialogue: {fileID: 0}
+  - choice: Talk to Sally?
+    nextFrame: {fileID: 11400000, guid: 3889d37b995690a4fb78e2340fb2027b, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: 2
+      nextDialogue: {fileID: 0}
+  - choice: Collect flowers?
+    nextFrame: {fileID: 11400000, guid: ab27c8e91e9b47a4daced56846dd81a9, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}

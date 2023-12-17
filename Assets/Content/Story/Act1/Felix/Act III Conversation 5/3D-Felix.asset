@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
+  m_Name: 3D-Felix
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: f516dffd3d634c74e9b97f8138740fb6, type: 2}
+  nextFrame: {fileID: 11400000, guid: d32f523f68883a940beb55cde12d892d, type: 2}
+  text:
+  - "I was reading The Interpretation of Dreams and it turned out to be not just
+    good for making me sleepy. It\u2019s a great book!"
+  - Anyway, hear this. I dreamt of a flower dancing in the sunlight! The sunlight!
+    You know what you have to do now!
+  actions: []

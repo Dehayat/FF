@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 3C-You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: Who? Sally?
+    nextFrame: {fileID: 11400000, guid: 982614d673ccbdf4aa8512d6e16f603f, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+  - choice: Who? Penny?
+    nextFrame: {fileID: 11400000, guid: edeb72fbdac0ef444bfb25283157f6a7, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}
+  - choice: Who? Shirley?
+    nextFrame: {fileID: 11400000, guid: 08cc4f0ebe2a16540a097a4f064f92d1, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: 698836ca135004e4b8719bf769b5c597, type: 2}
+      heartChange: -2
+      nextDialogue: {fileID: 0}
