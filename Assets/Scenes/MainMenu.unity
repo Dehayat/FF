@@ -731,7 +731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6634253282027295926, guid: b03a765f37325454e86417370462fb9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694095233821557346, guid: b03a765f37325454e86417370462fb9a, type: 3}
+      propertyPath: m_text
+      value: Artist
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
