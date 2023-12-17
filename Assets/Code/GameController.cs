@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -19,6 +20,10 @@ public class GameController : MonoBehaviour
     public SectionDialogues ac2Sec2;
     public SectionDialogues ac3Sec1;
     public static bool isLastAct = false;
+    public GameObject gameOverScreen;
+    public string winText;
+    public TextMeshProUGUI overText;
+    public string loseText;
 
     private HashSet<Character> talkedToCharacters;
     private Player player;
@@ -28,7 +33,6 @@ public class GameController : MonoBehaviour
     private void Start()
     {
     }
-
     private void StartAct1()
     {
         Debug.Log("act1");
@@ -114,6 +118,27 @@ public class GameController : MonoBehaviour
 
     private void Act3()
     {
+        if (talkedToCharacters.Count == GameData.instance.characters.Length)
+        {
+            int trust = 0;
+            foreach (var character in talkedToCharacters)
+            {
+                if (character.heart > 0)
+                {
+                    trust++;
+                }
+            }
+            if (trust == 6)
+            {
+                overText.text = winText;
+            }
+            else
+            {
+                overText.text = loseText;
+            }
+            gameOverScreen.SetActive(true);
+            player.CantMove();
+        }
     }
 
     private void StartAct1Section2()

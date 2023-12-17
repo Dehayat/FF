@@ -15,6 +15,11 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public void CantMove()
+    {
+        canMove = false;
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -87,6 +92,7 @@ public class Player : MonoBehaviour
     {
         if (!canMove)
         {
+            rb.velocity = Vector2.zero;
             anim.SetBool("Walk", false);
             return;
         }
