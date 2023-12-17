@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
     {
         currentDialogue = dialogue;
         currentTextIndex = 0;
-        characterImage.sprite = currentDialogue.character.sprite;
+        characterImage.sprite = currentDialogue.character.GetSprite;
         nameText.text = dialogue.character.characterName;
         dialogueText.text = currentDialogue.text[currentTextIndex];
         characterImage.gameObject.SetActive(true);

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 6C
+  m_EditorClassIdentifier: 
+  options:
+  - choice: "It\u2019s a nice group! Everyone is happy."
+    nextFrame: {fileID: 11400000, guid: 2a38e654a54a7524a828750c330cdec7, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: There is some conflict but in the end we love each other.
+    nextFrame: {fileID: 11400000, guid: b24771562e092424d8f02e3d1dc95e77, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "It\u2019s a constant clash. "
+    nextFrame: {fileID: 11400000, guid: 572dd97e1b798e2449ae013a69b1e213, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}

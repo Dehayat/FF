@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Cat
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 4b50e51c5087d9b4da357ded91f2b8e5, type: 3}
+  sadSprite: {fileID: 21300000, guid: 4b50e51c5087d9b4da357ded91f2b8e5, type: 3}
   characterName: You
   heart: 0

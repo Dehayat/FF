@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Felix
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: ab8ff80a0c24c6141883fc150d814e58, type: 3}
+  sadSprite: {fileID: 21300000, guid: 316b03165525c554fb80a80ef5bbf339, type: 3}
   characterName: Felix
   heart: 0

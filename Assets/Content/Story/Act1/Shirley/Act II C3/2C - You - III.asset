@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 2C - You - III
+  m_EditorClassIdentifier: 
+  options:
+  - choice: You are a filthy manipulator.
+    nextFrame: {fileID: 11400000, guid: ec758b5b0c3d8e744b6869d7c6c75e01, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "I can see you\u2019re working with Leonard now?"
+    nextFrame: {fileID: 11400000, guid: 5bdf58be3859139439e0ef9d133a441c, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "What happened with Penny? She\u2019s hurt?"
+    nextFrame: {fileID: 11400000, guid: f676fcc996a5c6a47a363013808a0388, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}

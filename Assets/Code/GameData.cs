@@ -8,7 +8,8 @@ public class GameData : MonoBehaviour
 
     public Character[] characters;
     public Dictionary<Character, WorldCharacter> characterToInstance;
-    private void Start()
+
+    private void Awake()
     {
         instance = this;
         foreach (Character character in characters)
@@ -16,6 +17,10 @@ public class GameData : MonoBehaviour
             character.Init();
         }
         characterToInstance = new();
+    }
+
+    private void Start()
+    {
         var allCharacterInstances = FindObjectsOfType<WorldCharacter>();
         foreach (WorldCharacter character in allCharacterInstances)
         {

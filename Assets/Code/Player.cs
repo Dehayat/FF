@@ -1,8 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.TextCore.Text;
 using static UnityEngine.InputSystem.InputAction;
 
 public class Player : MonoBehaviour
 {
+    public UnityEvent<Character> onTalkToCharacter;
+
     public float speed;
     public Frame testFrame;
     public DialogueTimeline dialogue;
@@ -47,12 +51,21 @@ public class Player : MonoBehaviour
         }
     }
 
+    private Character talkingToCharacter;
     private void InteractWithTrigger()
     {
         if (currentTrigger != null && currentTrigger.CanUse())
         {
+            talkingToCharacter = currentTrigger.GetComponentInParent<WorldCharacter>().character;
             var interactingGO = currentTrigger.gameObject;
-            dialogue.onFinish.AddListener(() => { interactingGO.SetActive(true); dialogue.onFinish.RemoveAllListeners(); canMove = true; });
+            dialogue.onFinish.AddListener(() =>
+            {
+                interactingGO.SetActive(true);
+                dialogue.onFinish.RemoveAllListeners();
+                canMove = true;
+                onTalkToCharacter?.Invoke(talkingToCharacter);
+                talkingToCharacter = null;
+            });
             dialogue.StartFrame(currentTrigger.frame);
             currentTrigger.gameObject.SetActive(false);
             currentTrigger = null;

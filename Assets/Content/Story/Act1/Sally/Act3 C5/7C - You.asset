@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 7C - You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: "That\u2019s incredibly cheesy."
+    nextFrame: {fileID: 11400000, guid: 3f3c96251f53d2747990a5516aed20c4, type: 2}
+    actions: []
+  - choice: Seriously?
+    nextFrame: {fileID: 11400000, guid: c3bf4f8433f56c1418a0fb27fb50d377, type: 2}
+    actions: []
+  - choice: OK, I trust you
+    nextFrame: {fileID: 11400000, guid: bdff35d136486464ea2396f6c265a4ac, type: 2}
+    actions: []

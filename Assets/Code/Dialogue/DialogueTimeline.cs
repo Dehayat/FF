@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,10 +26,41 @@ public class DialogueTimeline : MonoBehaviour
             {
                 dm.HideCharacter();
                 dialogueView.SetActive(false);
-                onFinish?.Invoke();
+                if (HeartWasBroken())
+                {
+                    StartCoroutine(HeartBreakSequence());
+                }
+                else
+                {
+                    onFinish?.Invoke();
+                }
             }
         }
     }
+
+    private IEnumerator HeartBreakSequence()
+    {
+        heartBreakAnim.Play("Break");
+        heartBreakAnim.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        heartBreakAnim.gameObject.SetActive(false);
+        onFinish?.Invoke();
+    }
+
+    private bool HeartWasBroken()
+    {
+        bool result = false;
+        foreach (var chara in GameData.instance.characters)
+        {
+            if (chara.justBroke)
+            {
+                result = true;
+                chara.justBroke = false;
+            }
+        }
+        return result;
+    }
+
     public void OnInput()
     {
         if (waitingForInput)
@@ -65,6 +98,7 @@ public class DialogueTimeline : MonoBehaviour
     public ChoiceManager cm;
     public GameObject dialogueView;
     public UnityEvent onFinish;
+    public Animator heartBreakAnim;
 
     private Frame currentFrame;
     private bool waitingForInput = false;

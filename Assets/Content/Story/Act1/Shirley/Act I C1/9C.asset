@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 9C
+  m_EditorClassIdentifier: 
+  options:
+  - choice: "You\u2019re being too negative now."
+    nextFrame: {fileID: 11400000, guid: cfa023ee1f0803446b4259c87a8eb02c, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "Great analysis, you\u2019re really good at reading people."
+    nextFrame: {fileID: 11400000, guid: 0f6ba6913b32d5d429f015e33ab65ef6, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: -1
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: It just seems like you hate us all.
+    nextFrame: {fileID: 11400000, guid: 5a89f2ba161edbb4cb9aa0e095bd6107, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}

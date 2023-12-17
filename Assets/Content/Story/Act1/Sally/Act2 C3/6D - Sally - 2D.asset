@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: 6D - Sally - 2D
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 0}
+  nextFrame: {fileID: 11400000, guid: 1a780df1d507ef048a41570248da37ed, type: 2}
   text:
-  - "You came to the right reptile, hon! I heard Penny has a degree in mechanical
-    engineering\u2026"
-  - 'Dave was also studying engineering, but he dropped out and became a sailor. '
+  - "You\u2019re too nice, hon!"
   actions:
   - actionType: 0
     target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}

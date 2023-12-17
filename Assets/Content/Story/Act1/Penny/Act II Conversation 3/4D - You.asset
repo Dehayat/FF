@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
+  m_Name: 4D - You
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+  nextFrame: {fileID: 11400000, guid: 47a5edaa7181df64b9484dfd4138482a, type: 2}
+  text:
+  - Did you cause the power shortage?
+  actions: []

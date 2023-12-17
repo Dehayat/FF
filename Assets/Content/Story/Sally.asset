@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Sally
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 8c41171e259e0df4ebc30ad758d2ea6d, type: 3}
+  sadSprite: {fileID: 21300000, guid: 97c7ba675cfc0184bbb3d1ca1c6d8835, type: 3}
   characterName: Sally
   heart: 2

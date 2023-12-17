@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Leonard
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 5ad846cb65850794e95ebfe557f2f657, type: 3}
+  sadSprite: {fileID: 21300000, guid: 31df52a8bee33384fbfa8121164f1033, type: 3}
   characterName: Leonard
   heart: 2

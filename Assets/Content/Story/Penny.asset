@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Penny
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 8b3b3ce58dca38e4aa40e82cbf818df9, type: 3}
+  sadSprite: {fileID: 21300000, guid: a3f139e9fa154854c9355e6b9daf8b44, type: 3}
   characterName: Penny
   heart: 2

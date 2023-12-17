@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a72ee7fb4c9a0408e88a5a05fd2163, type: 3}
+  m_Name: 9D
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: b0cd3848ec055a24baeb4248eb366d86, type: 2}
+  nextFrame: {fileID: 11400000, guid: 87e4a252e1f7d704a98c352e25887448, type: 2}
+  text:
+  - "Look, I don\u2019t want to appear as a horrible sheep. I actually don\u2019t
+    care at all about how I appear. I\u2019m just trying to make everything work,
+    and this ship seems to be doomed to fall apart. It\u2019s not easy to be a leader
+    of a group. "
+  actions: []

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   options:
   - choice: It was Penny, while fixing the porthole.
-    nextFrame: {fileID: 11400000, guid: 21c53697fb1d8b64797396bba4f37f16, type: 2}
+    nextFrame: {fileID: 11400000, guid: 91c2ceacd3108c345996358cb6316fef, type: 2}
     actions: []
   - choice: "It was Dave, he\u2019s just incompetent."
-    nextFrame: {fileID: 11400000, guid: 3ab4745b742ad0b4495c90f9026254b3, type: 2}
+    nextFrame: {fileID: 11400000, guid: 9491f01defff8f045934a02c3d5c8881, type: 2}
     actions: []
   - choice: It was Shirley with her negativity.
-    nextFrame: {fileID: 11400000, guid: 3ab4745b742ad0b4495c90f9026254b3, type: 2}
+    nextFrame: {fileID: 11400000, guid: a971dae266f21204996b3a26cbe4d60a, type: 2}
     actions: []
   - choice: "It was no one\u2019s fault."
-    nextFrame: {fileID: 11400000, guid: 3ab4745b742ad0b4495c90f9026254b3, type: 2}
+    nextFrame: {fileID: 11400000, guid: 3f16bdf0fc2a43a448c77714f05be38c, type: 2}
     actions: []

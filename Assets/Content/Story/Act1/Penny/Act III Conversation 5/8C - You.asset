@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d431c90705acb046a2a4b2d3bdc5889, type: 3}
+  m_Name: 8C - You
+  m_EditorClassIdentifier: 
+  options:
+  - choice: You have the right to be let alone.
+    nextFrame: {fileID: 11400000, guid: faeb9c92ec5f40e48be45dac11fd90db, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: 3
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "I\u2019ll go call him so that you can talk to him."
+    nextFrame: {fileID: 11400000, guid: e311c9a0a1abf474280e74a2ca96a3cc, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: -2
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}
+  - choice: "You\u2019re being too harsh."
+    nextFrame: {fileID: 11400000, guid: 7d4289bd380009c4bb4f80f5ed95fbd8, type: 2}
+    actions:
+    - actionType: 0
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: -5
+      nextDialogue: {fileID: 0}
+    - actionType: 1
+      target: {fileID: 11400000, guid: bb7853240aae3b541b6eca43e19d0c8f, type: 2}
+      heartChange: 0
+      nextDialogue: {fileID: 0}

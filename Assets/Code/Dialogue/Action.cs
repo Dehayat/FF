@@ -34,6 +34,17 @@ public class Action
 
     private void ChangeHeartAction()
     {
+        int prev = target.currentHeart;
         target.currentHeart += heartChange;
+        target.currentHeart += 70;
+        target.currentHeart %= 7;
+        if (prev > 0 && target.currentHeart <= 0)
+        {
+            target.justBroke = true;
+        }
+        if (target.justBroke && target.currentHeart > 0)
+        {
+            target.justBroke = false;
+        }
     }
 }

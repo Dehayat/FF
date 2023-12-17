@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: 7D - Sally
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
-  nextFrame: {fileID: 11400000, guid: 4127b4e6e73e95249b52c3ce01ce67bb, type: 2}
+  nextFrame: {fileID: 0}
   text:
-  - Oh hey there hon! Someone messed up with the wires again, huh? You know who it
-    was?
-  actions: []
+  - "I\u2019ve heard Penny caused the issue while repairing the porthole, but no
+    one can blame her for that, am I right hon?"
+  actions:
+  - actionType: 1
+    target: {fileID: 11400000, guid: a37ac896e9c76d04ba2729e028fd97f2, type: 2}
+    heartChange: 0
+    nextDialogue: {fileID: 0}
