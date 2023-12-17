@@ -17,6 +17,7 @@ public class SectionDialogues : MonoBehaviour
     {
         foreach (var charDialogue in newDialogues)
         {
+            Debug.Log(charDialogue.character + " and " +  charDialogue.dialogue);
             GameData.instance.characterToInstance[charDialogue.character].frameTrigger.frame = charDialogue.dialogue;
         }
     }

@@ -23,15 +23,19 @@ public class Character : ScriptableObject
     public Sprite sadSprite;
     public string characterName;
     public int heart;
+    public Frame trustDialogue;
 
     [NonSerialized]
     public int currentHeart;
     [NonSerialized]
     public bool justBroke;
+    [NonSerialized]
+    public bool finish;
 
     public void Init()
     {
         currentHeart = heart;
         justBroke = false;
+        finish = false;
     }
 }

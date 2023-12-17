@@ -13,12 +13,10 @@ public class HeartIcon : MonoBehaviour
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            Debug.Log("Empty");
             hearts[i].sprite = empty;
         }
         for (int i = 0; i < count && i < hearts.Length; i++)
         {
-            Debug.Log("fill " + i);
             hearts[i].sprite = heart;
         }
     }

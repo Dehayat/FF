@@ -60,11 +60,19 @@ public class Player : MonoBehaviour
             var interactingGO = currentTrigger.gameObject;
             dialogue.onFinish.AddListener(() =>
             {
-                interactingGO.SetActive(true);
-                dialogue.onFinish.RemoveAllListeners();
-                canMove = true;
-                onTalkToCharacter?.Invoke(talkingToCharacter);
-                talkingToCharacter = null;
+                if (GameController.isLastAct && !talkingToCharacter.finish && talkingToCharacter.currentHeart > 0)
+                {
+                    talkingToCharacter.finish = true;
+                    dialogue.StartFrame(talkingToCharacter.trustDialogue);
+                }
+                else
+                {
+                    interactingGO.SetActive(true);
+                    dialogue.onFinish.RemoveAllListeners();
+                    canMove = true;
+                    onTalkToCharacter?.Invoke(talkingToCharacter);
+                    talkingToCharacter = null;
+                }
             });
             dialogue.StartFrame(currentTrigger.frame);
             currentTrigger.gameObject.SetActive(false);

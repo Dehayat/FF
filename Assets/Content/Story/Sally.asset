@@ -16,3 +16,4 @@ MonoBehaviour:
   sadSprite: {fileID: 21300000, guid: 97c7ba675cfc0184bbb3d1ca1c6d8835, type: 3}
   characterName: Sally
   heart: 2
+  trustDialogue: {fileID: 11400000, guid: 33da2aecd06b7684b922de44147d099a, type: 2}

@@ -15,4 +15,5 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: e314ea608b91cb34a98331a66f69630b, type: 3}
   sadSprite: {fileID: 21300000, guid: 1598eeaba5afa5e41b18fbba13d34565, type: 3}
   characterName: Dave
-  heart: 1
+  heart: 4
+  trustDialogue: {fileID: 11400000, guid: 769259cea84066e4ca38396000d40d2f, type: 2}

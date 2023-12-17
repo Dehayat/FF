@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Dialogue Scenes/CatRoom.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f7dd9b657160ad54f95aab05dece0104
+  - enabled: 1
+    path: Assets/Scenes/RoomDeck.unity
+    guid: 0e1aa7617bbde3341a4acfac467fc49c
   m_configObjects: {}

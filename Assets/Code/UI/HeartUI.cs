@@ -29,7 +29,6 @@ public class HeartUI : MonoBehaviour
     {
         foreach (var charUI in characterHeartUIs)
         {
-            Debug.Log(charUI.character.currentHeart);
             charUI.heartContainer.SetHearts(charUI.character.currentHeart);
         }
     }

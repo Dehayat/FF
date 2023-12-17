@@ -15,4 +15,5 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: ab8ff80a0c24c6141883fc150d814e58, type: 3}
   sadSprite: {fileID: 21300000, guid: 316b03165525c554fb80a80ef5bbf339, type: 3}
   characterName: Felix
-  heart: 0
+  heart: 2
+  trustDialogue: {fileID: 11400000, guid: 821dbadb75cc737479b51e50ccc9b864, type: 2}

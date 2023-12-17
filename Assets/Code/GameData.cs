@@ -26,6 +26,7 @@ public class GameData : MonoBehaviour
         {
             characterToInstance.Add(character.character, character);
         }
+        FindObjectOfType<GameController>().DoThing();
     }
     public WorldCharacter GetWorldCharacter(Character character)
     {

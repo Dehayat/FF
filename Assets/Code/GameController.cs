@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ public class GameController : MonoBehaviour
     public SectionDialogues ac2Sec1;
     public SectionDialogues ac2Sec2;
     public SectionDialogues ac3Sec1;
+    public static bool isLastAct = false;
 
     private HashSet<Character> talkedToCharacters;
     private Player player;
@@ -25,10 +27,6 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        talkedToCharacters = new HashSet<Character>();
-        player = FindObjectOfType<Player>();
-        player.onTalkToCharacter.AddListener(OnTalkedToCharacter);
-        StartAct1();
     }
 
     private void StartAct1()
@@ -38,6 +36,7 @@ public class GameController : MonoBehaviour
         currentAct = Act.Act1;
         currentSection = 1;
         ac1Sec1.UpdateDialogues();
+        isLastAct = false;
     }
 
     private void StartAct2()
@@ -55,6 +54,7 @@ public class GameController : MonoBehaviour
         ac3Sec1.UpdateDialogues();
         currentAct = Act.Act3;
         currentSection = 1;
+        isLastAct = true;
     }
 
     private void OnTalkedToCharacter(Character character)
@@ -129,5 +129,13 @@ public class GameController : MonoBehaviour
         ac2Sec2.UpdateDialogues();
         talkedToCharacters.Clear();
         currentSection = 2;
+    }
+
+    internal void DoThing()
+    {
+        talkedToCharacters = new HashSet<Character>();
+        player = FindObjectOfType<Player>();
+        player.onTalkToCharacter.AddListener(OnTalkedToCharacter);
+        StartAct1();
     }
 }
