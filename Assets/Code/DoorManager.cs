@@ -7,6 +7,7 @@ public class DoorManager : MonoBehaviour
 {
     public void EnterDoor(string doorExit)
     {
+        player = FindObjectOfType<Player>();
         player.transform.position = exitToPosition[doorExit].position;
     }
 
@@ -21,7 +22,6 @@ public class DoorManager : MonoBehaviour
     }
     private void Start()
     {
-        player = FindObjectOfType<Player>();
         exitToPosition = new();
         var doorExits = FindObjectsOfType<DoorExit>();
         foreach (var door in doorExits)
