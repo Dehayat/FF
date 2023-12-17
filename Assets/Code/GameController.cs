@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -24,6 +25,11 @@ public class GameController : MonoBehaviour
     public string winText;
     public TextMeshProUGUI overText;
     public string loseText;
+    [Header("Acts intro")]
+    public string act1Intro;
+    public string act2Intro;
+    public string act3Intro;
+    public GameObject introScreen;
 
     private HashSet<Character> talkedToCharacters;
     private Player player;
@@ -41,6 +47,8 @@ public class GameController : MonoBehaviour
         currentSection = 1;
         ac1Sec1.UpdateDialogues();
         isLastAct = false;
+        introScreen.GetComponentInChildren<TextMeshProUGUI>().text = act1Intro;
+        introScreen.GetComponent<Animator>().Play("ActStart");
     }
 
     private void StartAct2()
@@ -50,6 +58,8 @@ public class GameController : MonoBehaviour
         ac2Sec1.UpdateDialogues();
         currentAct = Act.Act2;
         currentSection = 1;
+        introScreen.GetComponentInChildren<TextMeshProUGUI>().text = act2Intro;
+        introScreen.GetComponent<Animator>().Play("ActStart");
     }
     private void StartAct3()
     {
@@ -59,6 +69,8 @@ public class GameController : MonoBehaviour
         currentAct = Act.Act3;
         currentSection = 1;
         isLastAct = true;
+        introScreen.GetComponentInChildren<TextMeshProUGUI>().text = act3Intro;
+        introScreen.GetComponent<Animator>().Play("ActStart");
     }
 
     private void OnTalkedToCharacter(Character character)
