@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Felix
   heart: 2
   trustDialogue: {fileID: 11400000, guid: 821dbadb75cc737479b51e50ccc9b864, type: 2}
+  avatarYOffset: -110

@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Penny
   heart: 3
   trustDialogue: {fileID: 11400000, guid: 63a67d0554621694ea3fd94052c69ce7, type: 2}
+  avatarYOffset: -134

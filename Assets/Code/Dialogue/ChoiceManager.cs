@@ -28,7 +28,6 @@ public class ChoiceManager : MonoBehaviour
     }
     public void SetChoice(int choice)
     {
-        Debug.Log(choice + "Chosen");
         currentChoice.SetChoice(choice);
         foreach (var action in currentChoice.options[choice].actions)
         {

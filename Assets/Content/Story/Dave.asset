@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Dave
   heart: 4
   trustDialogue: {fileID: 11400000, guid: 769259cea84066e4ca38396000d40d2f, type: 2}
+  avatarYOffset: -143

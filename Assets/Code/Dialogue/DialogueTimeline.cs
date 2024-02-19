@@ -40,8 +40,8 @@ public class DialogueTimeline : MonoBehaviour
 
     private IEnumerator HeartBreakSequence()
     {
-        heartBreakAnim.Play("Break");
         heartBreakAnim.gameObject.SetActive(true);
+        heartBreakAnim.Play("Break");
         yield return new WaitForSeconds(1.5f);
         heartBreakAnim.gameObject.SetActive(false);
         onFinish?.Invoke();

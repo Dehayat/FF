@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Leonard
   heart: 3
   trustDialogue: {fileID: 11400000, guid: e23cd9946bef319449f0bef6a8b3f322, type: 2}
+  avatarYOffset: -29

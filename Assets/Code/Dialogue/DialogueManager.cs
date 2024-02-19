@@ -19,6 +19,10 @@ public class DialogueManager : MonoBehaviour
         currentDialogue = dialogue;
         currentTextIndex = 0;
         characterImage.sprite = currentDialogue.character.GetSprite;
+        var charImage = characterImage.GetComponent<RectTransform>();
+        var pos = charImage.anchoredPosition;
+        pos.y = currentDialogue.character.avatarYOffset;
+        charImage.anchoredPosition = pos;
         nameText.text = dialogue.character.characterName;
         dialogueText.text = currentDialogue.text[currentTextIndex];
         characterImage.gameObject.SetActive(true);

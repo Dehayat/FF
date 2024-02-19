@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Shirley
   heart: 5
   trustDialogue: {fileID: 11400000, guid: 49e7afd8450007c4d98f0811039d7327, type: 2}
+  avatarYOffset: -70

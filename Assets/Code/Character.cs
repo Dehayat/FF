@@ -24,6 +24,7 @@ public class Character : ScriptableObject
     public string characterName;
     public int heart;
     public Frame trustDialogue;
+    public float avatarYOffset;
 
     [NonSerialized]
     public int currentHeart;

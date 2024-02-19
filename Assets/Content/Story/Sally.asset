@@ -17,3 +17,4 @@ MonoBehaviour:
   characterName: Sally
   heart: 2
   trustDialogue: {fileID: 11400000, guid: 33da2aecd06b7684b922de44147d099a, type: 2}
+  avatarYOffset: -64
